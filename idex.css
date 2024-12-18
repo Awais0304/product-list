@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+.container1 {
+    background-color: #e0e0e0;
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.container1 p {
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+
+
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+
+}
+.card-1{
+    background-color: #fcfcfc;
+    width: 20%;
+    /* height: 300px; */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.images{
+    height: 150px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #a19c9c;
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;
+   
+    
+
+}
+.card1-text{
+margin-left: 20px;
+font-size: 17px;
+margin-right: 7px;
+
+}
+
+
+.as{
+    margin-top: 20px;
+}
+@media only screen and (min-width:200px) and (max-width:769px){
+.card-1{
+    width: 100%;
+    flex-direction: column;
+    
+    
+}
+    
+}
